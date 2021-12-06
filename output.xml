@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.9.7 on win32)" generated="20211206 16:13:57.949" rpa="false" schemaversion="2">
+<suite id="s1" name="Test Add to Cart" source="E:\Latihan QA\TestCase_WebSaucedemo\Test_Add_to_Cart.robot">
+<kw name="Open Browser" library="SeleniumLibrary" type="SETUP">
+<arg>${webURL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211206 16:13:58.458" level="INFO">Opening browser 'Chrome' to base url 'https://www.saucedemo.com/'.</msg>
+<status status="PASS" starttime="20211206 16:13:58.457" endtime="20211206 16:14:02.771"/>
+</kw>
+<test id="s1-t1" name="Login with valid credentials should successful">
+<status status="FAIL" starttime="20211206 16:14:02.771" endtime="20211206 16:14:02.775">Test case contains no keywords.</status>
+</test>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20211206 16:14:02.787" endtime="20211206 16:14:05.122"/>
+</kw>
+<status status="FAIL" starttime="20211206 16:13:57.965" endtime="20211206 16:14:05.122"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test Add to Cart">Test Add to Cart</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

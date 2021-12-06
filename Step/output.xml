@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.9.7 on win32)" generated="20211206 17:24:58.818" rpa="false" schemaversion="2">
+<suite id="s1" name="Login Step" source="E:\Latihan QA\TestCase_WebSaucedemo\Step\login_step.robot">
+<kw name="Open Browser" library="SeleniumLibrary" type="SETUP">
+<arg>${WebSauceDemo}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211206 17:24:59.298" level="FAIL">Variable '${WebSauceDemo}' not found.</msg>
+<status status="FAIL" starttime="20211206 17:24:59.297" endtime="20211206 17:24:59.298"/>
+</kw>
+<test id="s1-t1" name="Login invalid credentials">
+<status status="FAIL" starttime="20211206 17:24:59.299" endtime="20211206 17:24:59.302">Parent suite setup failed:
+Variable '${WebSauceDemo}' not found.</status>
+</test>
+<test id="s1-t2" name="Login empty username">
+<status status="FAIL" starttime="20211206 17:24:59.306" endtime="20211206 17:24:59.308">Parent suite setup failed:
+Variable '${WebSauceDemo}' not found.</status>
+</test>
+<test id="s1-t3" name="Login empty pasword">
+<status status="FAIL" starttime="20211206 17:24:59.314" endtime="20211206 17:24:59.316">Parent suite setup failed:
+Variable '${WebSauceDemo}' not found.</status>
+</test>
+<test id="s1-t4" name="Login valid credentials">
+<status status="FAIL" starttime="20211206 17:24:59.321" endtime="20211206 17:24:59.326">Parent suite setup failed:
+Variable '${WebSauceDemo}' not found.</status>
+</test>
+<test id="s1-t5" name="Login using csv">
+<status status="FAIL" starttime="20211206 17:24:59.334" endtime="20211206 17:24:59.340">Parent suite setup failed:
+Variable '${WebSauceDemo}' not found.</status>
+</test>
+<test id="s1-t6" name="Login valid credentials using csv">
+<status status="FAIL" starttime="20211206 17:24:59.344" endtime="20211206 17:24:59.348">Parent suite setup failed:
+Variable '${WebSauceDemo}' not found.</status>
+</test>
+<test id="s1-t7" name="Step Login with invalid credentials">
+<status status="FAIL" starttime="20211206 17:24:59.352" endtime="20211206 17:24:59.356">Parent suite setup failed:
+Variable '${WebSauceDemo}' not found.</status>
+</test>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20211206 17:24:59.361" endtime="20211206 17:24:59.362"/>
+</kw>
+<status status="FAIL" starttime="20211206 17:24:58.821" endtime="20211206 17:24:59.362">Suite setup failed:
+Variable '${WebSauceDemo}' not found.</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="7" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="7" skip="0" id="s1" name="Login Step">Login Step</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20211206 17:24:59.251" level="WARN">Imported resource file 'E:\Latihan QA\TestCase_WebSaucedemo\Resources\login_page.robot' is empty.</msg>
+<msg timestamp="20211206 17:24:59.287" level="ERROR">[ DataDriver ] Error in robot file:
+  File "E:\Latihan QA\TestCase_WebSaucedemo\Step\login_step.robot", line 0</msg>
+<msg timestamp="20211206 17:24:59.289" level="ERROR">In source file:
+  File "credentials.csv", line 0</msg>
+<msg timestamp="20211206 17:24:59.293" level="ERROR">Calling method '_start_suite' of listener 'DataDriver' failed: FileNotFoundError: File attribute was not a full path. Tried to find E:\Latihan QA\TestCase_WebSaucedemo\Step\credentials.csv but file does not exist.</msg>
+</errors>
+</robot>
